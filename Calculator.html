@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="Style.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="calculator">
+
+			<p class="name">Цена:</p>
+			<input id="num1" />
+			<p class="name">Объем(мкл):</p>
+			<select id="num2">
+				<option> ...</option>
+				<option> 100</option>
+				<option> 200</option>
+			</select>
+			<p class="name">Разведение(мкл):</p>
+			<select id="num3">
+				<option> ...</option>
+				<option> 100</option>
+				<option> 200</option>
+				<option> 250</option>
+				<option> 500</option>
+				<option> 1000</option>
+			</select>
+			<p class="name">Объем на стекло(мкл):</p>
+			<input id="num4" />
+			<p class="name">Кол-во стекол:</p><input id="num5" />
+			<button onclick="func()">Сумма</button>
+			<p id="result"></p>
+
+		</div>
+
+
+	</body>
+
+	</html>
